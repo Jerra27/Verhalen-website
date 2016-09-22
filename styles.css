@@ -1,0 +1,429 @@
+    @font-face {
+        font-family: 'nexa_boldregular';
+        src: url('../fonts/Nexa_Free_Bold-webfont.eot');
+        src: url('Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'), url('Nexa_Free_Bold-webfont.woff2') format('woff2'), url('Nexa_Free_Bold-webfont.woff') format('woff'), url('Nexa_Free_Bold-webfont.ttf') format('truetype'), url('Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'nexa_lightregular';
+        src: url('../fonts/Nexa_Free_Light-webfont.eot');
+        src: url('Nexa_Free_Light-webfont.eot?#iefix') format('embedded-opentype'), url('Nexa_Free_Light-webfont.woff2') format('woff2'), url('Nexa_Free_Light-webfont.woff') format('woff'), url('Nexa_Free_Light-webfont.ttf') format('truetype'), url('Nexa_Free_Light-webfont.svg#nexa_lightregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    body {
+        font-family: 'Nexa';
+    }
+    
+    .stoned:hover {
+        -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(100deg);
+        transform: rotate(20deg);
+        color: #660066;
+    }
+    
+    button {
+        padding: 1em;
+        color: white;
+        background-color: RGBA(255, 50, 104, 1.00);
+        font-size: 1em;
+        text-align: center;
+        border-radius: 0.75rem;
+        border: none;
+        width: 10%;
+    }
+    
+    .wilders:hover {
+        color: #604020;
+        text-decoration: line-through;
+        text-shadow: none;
+    }
+    
+    .nico:hover {
+        color: black;
+        text-shadow: 3px 3px 3px #eee;
+    }
+    
+    .kids:hover {
+        /*transform: translateY(-25px); */
+        transform: rotate(20deg);
+        color: #ff3268;
+        text-shadow: none;
+        text-transform: uppercase;
+    }
+    
+    .demos:hover {
+        color: #838281;
+        text-shadow: 1px 1px 1px #838281;
+        text-transform: capitalize;
+    }
+    
+    button:hover {
+        background-color: #2800a0;
+    }
+    
+    .nichterig:hover {
+        text-shadow: 2px 2px 2px#ff80b3;
+        color: #ffcce0;
+    }
+    
+    .regenboog:hover {
+        color: #ff6666;
+        text-shadow: 1px 1px 1px #668cff;
+    }
+    
+    .ban:hover {
+        color: #ff3268;
+        text-shadow: 1px 1px #ff3267;
+    }
+    
+    .boer:hover {
+        color: #f3e5d8;
+        text-shadow: 1px 1px 1px #f3e5d7;
+    }
+    
+    .charlie:hover {
+        transform: rotate(10deg);
+        color: black;
+        text-shadow: none;
+    }
+    
+    article:hover {
+        transform: skew(2deg, 1deg);
+    }
+    
+    article > div {
+        box-shadow: inset 7px 4px 10px -3px #ff3268;
+    }
+    
+    fieldset {
+        font-family: 'Nexa Light';
+        font-size: 0.75em;
+    }
+    
+    p {
+        line-height: 1.5em;
+        font-family: 'nexa_lightregular';
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .filter {
+        background-color: RGBA(40, 0, 160, 1.00);
+        color: white;
+        font-family: 'Nexa Light';
+        text-align: center;
+        padding: 0.2em;
+        height: 4em;
+        width: 30%;
+        border: none;
+    }
+    /* attribute selectors */
+    
+    input[type="submit"] {
+        width: 6em;
+        color: white;
+        font-family: 'Nexa Bold';
+        background-color: RGBA(255, 50, 104, 1.00);
+        border: none;
+        padding: 1em;
+        border-radius: 0.75rem;
+    }
+    
+    header {
+        width: 100%;
+    }
+    
+    nav > img {
+        margin: auto;
+        max-height: 8em;
+        max-width: 8em;
+    }
+    
+    form {
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    form > select {
+        margin-top: 2em;
+        margin-left: 6em;
+    }
+    
+    li {
+        color: white;
+    }
+    
+    a {
+        padding: 0.5em;
+        color: #ff3268;
+        font-family: 'Nexa Light';
+        text-decoration: none;
+        text-align: center;
+    }
+    /* unvisited link  psuedo classes*/
+    /* visited link */
+    /* mouse over link */
+    
+    a:hover {
+        color: #2800a0;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 2em;
+    }
+    /* child selector */
+    
+    section > h2 {
+        color: #00d66c;
+        font-family: 'Nexa Bold';
+        margin-left: 1em;
+        font-size: 4em;
+    }
+    
+    h1 {
+        font-family: 'Nexa Light';
+        color: rgba(255, 50, 104, 1.00);
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-family: 'Nexa Light';
+        color: RGBA(0, 214, 108, 1.00);
+        font-size: 2em;
+    }
+    
+    section > h2:hover {
+        background-color: #ff3268;
+        color: white;
+        width: 100%;
+        text-transform: uppercase;
+    }
+    
+    div > h2 {
+        text-shadow: 5px 5px 10px rgba(0, 214, 108, 0.48);
+    }
+    
+    div > a {
+        font-size 20em;
+    }
+    
+    h3 {
+        font-family: 'Nexa Light';
+        color: #ff3268;
+        font-size: 0.5em;
+    }
+    
+    h4 {
+        font-family: 'Nexa Light';
+        color: #2800a0;
+        font-size: 0.225em;
+    }
+    
+    h6 {
+        font-family: 'Nexa Light';
+    }
+    
+    p {
+        font-family: 'Nexa Light';
+        color: #606060;
+        font-size: 0.700em;
+        letter-spacing: 0.10em;
+    }
+    /* class selectors */
+    
+    .zoeken {
+        text-align: center;
+        margin-top: 1em;
+    }
+    
+    section {
+        margin: 0.5em auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    article {
+        padding: 1em;
+        width: 100%;
+    }
+    
+    article > div {
+        padding: 1em;
+        height: 100%;
+        border: 1px solid red;
+        border-radius: 1rem;
+        border: 1px solid #eee;
+    }
+    
+    article > div img {
+        max-width: 90%;
+        height: auto;
+    }
+    
+    img {
+        max-width: 10em;
+    }
+}
+.tekst {
+    text-align: center;
+    font-size: 0.50em;
+    font-family: 'Nexa Light';
+    list-style-type: none;
+}
+
+/*  media queries 30 em min width*/
+@media only screen and (min-width: 30em) {
+    article {
+        width: 50%;
+    }
+    
+    .stoned:hover {
+        -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(100deg);
+        transform: rotate(20deg);
+        color: #660066;
+        text-shadow: 2px 2px 2px #4d0099;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    img {
+        max-width: 12em;
+    }
+    
+    section > h2 {
+        font-size: 1em;
+    }
+    
+    h2 {
+        font-size: 1em;
+        font-family: 'Nexa Bold';
+    }
+    
+    h3 {
+        font-size: 0.75em;
+    }
+}
+
+/* media queries min width 45em */
+@media only screen and (min-width: 45em);
+input[type="search"] {
+    color: rgba(255, 50, 104, 1.00);
+    text-align: left;
+    cursor: pointer;
+    width: 20em;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+    font-size: 2em;
+    height: 200px;
+}
+.stoned:hover {
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(100deg);
+    transform: rotate(20deg);
+    color: #660066;
+}
+button {
+    padding: 1em;
+    cOLOR: white;
+    background-color: RGBA(255, 50, 104, 1.00);
+    font-size: 1em;
+    text-align: center;
+    border-radius: 0.75rem;
+    border: none;
+    width: 25%;
+}
+section > h2 {
+    color: #00d66c;
+    font-family: 'Nexa Bold';
+    font-size: 2em;
+}
+.filter {
+    color: white;
+    font-family: 'Nexa Bold';
+    text-align: center;
+    padding: 0.2em;
+    border: none;
+    font-size: 0.5em;
+    max-width: 15em;
+}
+section {
+    max-width: 60em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img {
+    max-width: 14em;
+}
+p {
+    font-size: 0.8em;
+    font-family: 'nexa_lightregular';
+}
+
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+
+/* Einde media querie */
+
+/* Navigatie responsive */
+.navigation {
+    font-family: "Nexa Light";
+    list-style: none;
+    margin: 0;
+    background: #00d66c;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+/* beginc avigatie */
+@media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+    }
+}
+@media all and (max-width: 600px) {
+    .navigation {
+        -webkit-flex-flow: column wrap;
+        flex-flow: column wrap;
+        padding: 0;
+    }
+    .navigation a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    /* Einde Navigatie */
