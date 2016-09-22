@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aanmeld pagina</title>
+</head>
+
+<body>
+    <header>
+        <h1>Maak hier uw account en maak gebruik van de vele extra's</h1>
+    </header>
+
+    <div>
+        <form action="action_page.php">
+            <fieldset>
+                <legend>Persoonlijke gegevens</legend>
+                <label for="naam">Voornaam</label>
+
+                <input type="text" id="naam" name="Voornaam" placeholder="Jeroen" required>
+
+
+                <label for="Tussenvoegsel">Tussenvoegsel</label>
+                <input type="text" id="Tussenvoegsel" name="tussenvoegsel" placeholder="van der">
+
+
+                <label for="Achternaam">Achternaam</label>
+                <input type="text" id="Achternaam" name="Achternaam" placeholder="Boom" required>
+
+                <label for="straatnaam">Straatnaam</label>
+                <input type="text" id="straatnaam" placeholder="Zeeweg" required>
+
+                <label for="postcode">Postcode</label>
+                <input type="text" id="postcode" placeholder="1253 XA" required>
+
+                <label for="nummer">Huisnummer</label>
+                <input type="number" id="nummer" placeholder="21" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="jeroenvanderboom@hotmail.com" required>
+
+                <label for="telnummer">Telefoonnummer</label>
+                <input type="tel" id="telnummer" placeholder="0643227739">
+
+                <label for="wachtwoord">Wachtwoord</label>
+                <input type="password" id="wachtwoord" title="Uw wachtwoord moet tenminste 6 leestekens bevatten" pattern=".{7,}">
+
+                <label for="land">Land</label>
+                <select id="land" name="land">
+                    <option value="Nederland">Nederland</option>
+                    <option value="België">België</option>
+                </select>
+
+                <input type="submit" value="Creeër account">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
